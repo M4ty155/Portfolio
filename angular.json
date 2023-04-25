@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "PortfolioAlanCejas": {
+    "PortfolioGimenezLuisMatias": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -36,7 +36,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/portfolio-alan-cejas",
+            "outputPath": "dist/portfolio-gimenez-luis",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -88,10 +88,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "PortfolioAlanCejas:build:production"
+              "browserTarget": "PortfolioGimenezLuisMatias:build:production"
             },
             "development": {
-              "browserTarget": "PortfolioAlanCejas:build:development"
+              "browserTarget": "PortfolioGimenezLuisMatias:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -99,7 +99,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "PortfolioAlanCejas:build"
+            "browserTarget": "PortfolioGimenezLuisMatias:build"
           }
         },
         "test": {

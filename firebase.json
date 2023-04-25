@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "dist/",
+    "public": "dist/portfolio-gimenez-luis",
     "ignore": [
       "firebase.json",
       "**/.*",
@@ -12,8 +12,5 @@
         "destination": "/index.html"
       }
     ]
-  },
-  "storage": {
-    "rules": "storage.rules"
   }
 }
