@@ -12,7 +12,7 @@ import { NuevoUsuario } from '../model/nuevo-usuario';
   providedIn: 'root'
 })
 export class AuthService {
-  authURL = environment.URL + 'auth/';
+  authURL = 'considerable-cathie-m4ty155.koyeb.app/auth/';
 
   constructor(private httpClient: HttpClient) { }
 
