@@ -8,6 +8,7 @@ import { NgxSpinnerService } from 'ngx-spinner';
 export class ImageService {
   url: string = "";
   imgRef: string = ""
+
   constructor(private storage: Storage, private spinner: NgxSpinnerService) { }
 
   public uploadImage($event: any, name: string){
