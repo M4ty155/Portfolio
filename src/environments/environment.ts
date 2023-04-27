@@ -7,6 +7,7 @@ export const environment = {
     projectId: 'portfoliofrontend-94602',
     appId: '1:78768063767:web:0e1b605f6f331018eba352',
     storageBucket: 'portfoliofrontend-94602.appspot.com',
+    locationId: 'southamerica-east1',
     apiKey: 'AIzaSyBDT8qR20SyEu8RTEEPNi6cwKbsBVKox0E',
     authDomain: 'portfoliofrontend-94602.firebaseapp.com',
     messagingSenderId: '78768063767',
