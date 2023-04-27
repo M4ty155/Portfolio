@@ -15,8 +15,7 @@
           <input type="file" class="form-control" id="img" name="img" (click)="imagenCargada = true"  (click)="this.imagePService.url = ''" (change)="uploadImage($event)" accept=".jpg, .jpeg, .png" required>
         </div>
         <div class="imagen">
-          <ngx-spinner bdColor = "rgba(0, 0, 0, 0.8)" size = "medium" color = "#ff0000" type = "ball-8bits" [fullScreen] = "false"><p style="color: white">
-            Cargando
+          <ngx-spinner [fullScreen]="false" size="medium" type="ball-8bits" color="#edb948" class="spinner">
           </ngx-spinner>
           <img [src]="proyecto.img" width="200px" *ngIf="!imagenCargada">
           <img [src]="imagePService.url" width="200px" *ngIf="imagenCargada">
