@@ -13,7 +13,7 @@ import Swal from 'sweetalert2';
 export class EditAcercaDeComponent implements OnInit {
   persona: persona = null;
   imagenCargada: boolean = false;
-  constructor(private personaService: PersonaService,private activatedRouter: ActivatedRoute, private router: Router, public imageService: ImageService) { }
+  constructor(private personaService: PersonaService, private activatedRouter: ActivatedRoute, private router: Router, public imageService: ImageService) { }
 
   ngOnInit(): void {
     this.imageService.url = "";
