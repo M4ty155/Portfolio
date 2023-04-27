@@ -15,7 +15,8 @@
           <input type="file" class="form-control" id="img" name="img" (click)="this.imagePService.url = ''" (change)="uploadImg($event)" accept=".jpg, .jpeg, .png" required>
         </div>
         <div class="imagen">
-          <ngx-spinner [fullScreen]="false" size="medium" type="pacman" color="#edb948" >
+          <ngx-spinner bdColor = "rgba(0, 0, 0, 0.8)" size = "medium" color = "#ff0000" type = "ball-8bits" [fullScreen] = "false"><p style="color: white">
+            Cargando
           </ngx-spinner>
           <img [src]="imagePService.url" width="200px">
         </div>
