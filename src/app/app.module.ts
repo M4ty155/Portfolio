@@ -64,8 +64,8 @@ import { NgxSpinnerModule } from "ngx-spinner";
     FormsModule,
     NgCircleProgressModule.forRoot({}),
     HttpClientModule,
-/*     provideFirebaseApp(() => initializeApp(environment.firebase)),
-    provideStorage(() => getStorage()), */
+    provideFirebaseApp(() => initializeApp(environment.firebase)),
+    provideStorage(() => getStorage()),
     BrowserAnimationsModule,
     NgxSpinnerModule,
   ],
